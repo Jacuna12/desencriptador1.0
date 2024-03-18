@@ -52,9 +52,5 @@ btnCopiar.addEventListener("click", function() {
     mensaje.select();
     document.execCommand("copy");
     textArea.focus();
-    document.execCommand("paste");
     mensaje.value = "";
-    
-    var imagenMuñeco = document.querySelector(".mensaje-encriptado");
-    imagenMuñeco.style.display = "block";
 });
