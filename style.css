@@ -36,10 +36,14 @@ main{
     outline: none;
 }
 
+.alerta{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 .botones{
     display: flex;
-    margin-top: 18px;
-
+    margin-top: 40px;
 }
 
 .BT-encriptar{
@@ -70,7 +74,7 @@ main{
     border: 1px solid #000000;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 10px;
+    margin-left: 112px;
     margin-top: 0px;
     padding-left: 20px;
     position: fixed;
@@ -88,7 +92,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 108px;
-    margin-top: 700px;
+    margin-top: 590px;
     position: absolute;
     width: 336px;
 }
